@@ -1,4 +1,5 @@
 @import 'fonts'; 
+@import 'animate'; 
 
 * {
 	font-family: 'Montserrat';
@@ -73,6 +74,9 @@ ul {
 @import 'blocks/hands';
 @import 'blocks/sample';
 @import 'blocks/advantages';
+@import 'blocks/slider';
+@import 'blocks/partners';
+@import 'blocks/contacts';
 
 
 @import 'media/mediaHeader';
@@ -85,6 +89,9 @@ ul {
 @import 'media/mediaHands';
 @import 'media/mediaSample';
 @import 'media/mediaAdvantages';
+@import 'media/mediaSlider';
+@import 'media/mediaPartners';
+@import 'media/mediaContacts';
 
 
  
