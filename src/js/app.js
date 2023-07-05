@@ -9,4 +9,8 @@ window.addEventListener("DOMContentLoaded", () => {
     navMenu();
     slider('.slider__item', 'horizontal', '.prev-button', '.next-button');
     
+    const whatsapp = document.querySelector('.pulse-button');
+    whatsapp.addEventListener('click', () => {
+        open("https://wa.me/77777777777");
+    })
 });
