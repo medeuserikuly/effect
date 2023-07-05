@@ -1,0 +1,16 @@
+@media (max-width: 577px) {
+    .order {
+        // .order__wrapper
+        &__wrapper {
+            flex-direction: column;
+            align-items: start;
+            gap: 15px;
+        }
+        // .order__number
+        &__number {
+            width: 50px;
+            font-size: 40px;
+        }
+    }
+    
+}

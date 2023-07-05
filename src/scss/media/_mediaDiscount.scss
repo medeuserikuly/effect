@@ -1,0 +1,18 @@
+@media (max-width: 577px) {
+    .discount {
+        padding-top: 40px;
+        // .discount__wrapper
+        &__wrapper {
+            flex-direction: column;
+        }
+        // .discount__descr
+        &__descr {
+            width: 340px;
+        }
+    }
+
+    .btn-price {
+        margin-top: 50px;
+    }
+    
+}

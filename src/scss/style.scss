@@ -1,7 +1,7 @@
 @import 'fonts'; 
 
 * {
-    // font-family: 'Roboto';
+	font-family: 'Montserrat';
     padding: 0;
     margin: 0;
     border: 0;
@@ -17,12 +17,74 @@ ul {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    @media (max-width: 576px) { 
+        padding: 0 20px;
+    }
+}
+.btn {
+    width: 235px;
+    height: 47px;
+    background-color: #FFCD01;
+    border-radius: 30px;
+
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.1);
+    }
+    &-promo {
+        margin-top: 20px;
+    }
+    &-white {
+        background-color: #fff;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    }
+}
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase; 
+    span {
+        color: #FFCD01;
+    }
+    &-white {
+        color: #fff;
+        font-size: 25px;
+        span {
+            color: #FFCD01;
+        }
+    }
+    @media (max-width: 577px) {
+        font-size: 24px;
+    }
 }
 
 
 
-@import 'header';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/services';
+@import 'blocks/discount';
+@import 'blocks/about';
+@import 'blocks/order';
+@import 'blocks/hands';
+@import 'blocks/sample';
+@import 'blocks/advantages';
+
+
 @import 'media/mediaHeader';
+@import 'media/mediaPromo';
+@import 'media/mediaBtn';
+@import 'media/mediaServices';
+@import 'media/mediaDiscount';
+@import 'media/mediaAbout';
+@import 'media/mediaOrder';
+@import 'media/mediaHands';
+@import 'media/mediaSample';
+@import 'media/mediaAdvantages';
 
 
  

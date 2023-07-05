@@ -1,0 +1,29 @@
+@media (max-width: 577px) {
+    .about {
+        padding: 50px 0;
+        // .about__wrapper
+        .about__descr {
+            width: 380px;
+        }
+        // .about__descr
+        &__text {
+            text-align: center;
+        }
+        // .about__subtitle
+        &__subtitle {
+            text-align: center;
+        }
+        // .about__contacts
+        &__contacts {
+            gap: 10px;
+            flex-direction: column;
+        }
+        &__img {
+            display: none;
+        }
+    }
+    .title-about {
+        text-align: center;
+    }
+    
+}

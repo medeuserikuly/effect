@@ -1,0 +1,22 @@
+.sample {
+    padding: 50px 0;
+    background-color: #373539;
+    // .sample__wrapper
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    // .sample__descr
+    &__descr {
+        width: 540px;
+    }
+    // .sample__text
+    &__text {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 15px;
+        color: #fff;
+        font-weight: 400;
+    }
+}

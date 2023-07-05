@@ -1,0 +1,47 @@
+.about {
+    padding: 50px;
+    // .about__wrapper
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about__descr {
+        width: 580px;
+    }
+    // .about__descr
+    &__text {
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    // .about__subtitle
+    &__subtitle {
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    // .about__contacts
+    &__contacts {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    // .about__phone
+    &__phone, &__email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #232323;
+        cursor: pointer;
+        img {
+            width: 25px;
+            margin-right: 10px;
+        }
+    }
+    // .about__img
+    &__img {
+    }
+}
+

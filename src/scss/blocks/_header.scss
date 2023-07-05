@@ -1,0 +1,40 @@
+
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color:rgba(0, 0, 0, .75);
+
+    &__container {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 70px;
+    }
+    &__logo {
+        position: relative;
+        z-index: 5;
+        caret-color: transparent;
+        color:#232323;
+        font-size: 30px;
+    }
+    .menu {
+        &__body {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        &__phone {
+            font-size: 18px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #fff;
+            margin-right: 30px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@media (max-width: 577px) {
+    .promo {
+        position: relative;
+        padding-top: 100px;
+        height: 100vh;
+        // .promo__text
+        &__text {
+            font-size: 10px;
+        }
+        // .promo__title
+        &__title {
+            line-height: 34px;
+            width: 320px;
+            font-size: 24px;
+        }
+        // .promo__subtitle
+        &__subtitle {
+            margin-top: 10px;
+            width: 320px;
+            font-size: 13px;
+        }
+        // .promo__numbers
+        &__numbers {
+            display: none;
+        }
+    }    
+}

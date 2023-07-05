@@ -1,0 +1,36 @@
+.advantages {
+    padding: 50px 0;
+    // .advantages__wrapper
+    &__wrapper {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 310px);
+        justify-content: center;
+        gap: 50px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    // .advantages__img
+    &__img {
+        height: 95px;
+        img {
+            height: 95px;
+        }
+    }
+    // .advantages__title
+    &__title {
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    // .advantages__text
+    &__text {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 15px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,64 @@
+.promo {
+    position: relative;
+    padding-top: 150px;
+    height: 800px;
+    background: url('@img/background.jpg') center center/cover no-repeat;
+    // .promo__text
+    &__text {
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+    }
+    // .promo__title
+    &__title {
+        margin-top: 10px;
+        line-height: 60px;
+        width: 750px;
+        font-size: 45px;
+        color: #fff;
+        span {
+            color: #FFCD01;
+        }
+    }
+    // .promo__subtitle
+    &__subtitle {
+        margin-top: 10px;
+        width: 600px;
+        font-size: 19px;
+        font-weight: 500;
+        color: #fff;
+    }
+    // .promo__numbers
+    &__numbers {
+        position: absolute;
+        bottom: 50px;
+        display: flex;
+        gap: 50px;
+    }
+    // .promo__item
+    &__item {
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    // .promo__number
+    &__number {
+        // width: 170px;
+        font-size: 30px;
+        font-weight: 700;
+        color:#fff;
+    }
+    // .promo__descr
+    &__descr {
+        width: 200px;
+        font-size: 14px;
+        font-weight: 500;
+        color:#fff;
+    }
+}
+.container {
+}
+.btn {
+}

@@ -1,0 +1,31 @@
+.discount {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #373539;
+    // .discount__wrapper
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    // .discount__descr
+    &__descr {
+        width: 640px;
+    }
+    // .discount__text
+    &__text {
+        margin-top: 20px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    // .discount__button
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            margin-left: -50px;
+        }
+    }
+}

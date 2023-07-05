@@ -1,0 +1,10 @@
+@media (max-width: 577px) {
+    .hands {
+        // .hands__wrapper
+        &__wrapper {
+            grid-template-columns: 310px;
+            row-gap: 50px;
+        }
+    }
+    
+}

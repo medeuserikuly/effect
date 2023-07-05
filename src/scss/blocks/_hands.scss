@@ -1,0 +1,32 @@
+.hands {
+    padding: 50px 0;
+    // .hands__wrapper
+    &__wrapper {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 310px);
+        justify-content: center;
+        column-gap: 150px;
+        row-gap: 100px;
+    }
+    // .hands__item
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    // .hands__img
+    &__img {
+        height: 60px;
+    }
+    // .hands__title
+    &__title {
+        margin-top: 25px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    // .hands__descr
+    &__descr {
+        margin-top: 15px;
+    }
+}

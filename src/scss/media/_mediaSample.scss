@@ -1,0 +1,29 @@
+@media (max-width: 577px) {
+    .sample {
+        position: relative;
+        padding-bottom: 100px;
+        // .sample__wrapper
+        &__wrapper {
+            flex-direction: column;
+        }
+        // .sample__descr
+        &__descr {
+            width: 340px;
+        }
+        // .sample__text
+        &__text {
+            text-align: center;
+        }
+        // .sample__img
+        &__img {
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+            width: 100px;
+        }
+    }
+
+    .title-sample {
+        text-align: center;
+    }
+}
