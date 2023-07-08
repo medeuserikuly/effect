@@ -12,5 +12,11 @@ window.addEventListener("DOMContentLoaded", () => {
     const whatsapp = document.querySelector('.pulse-button');
     whatsapp.addEventListener('click', () => {
         open("https://wa.me/77777777777");
-    })
+    });
+
+    document.querySelectorAll('.btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            open("https://wa.me/77777777777");
+        });
+    });
 });
