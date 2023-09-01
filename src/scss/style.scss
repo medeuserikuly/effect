@@ -1,5 +1,6 @@
 @import 'fonts'; 
 @import 'animate'; 
+@import 'var'; 
 
 * {
 	font-family: 'Montserrat';
@@ -25,7 +26,7 @@ ul {
 .btn {
     width: 235px;
     height: 47px;
-    background-color: #FFCD01;
+    background-color: $second;
     border-radius: 30px;
 
     font-size: 14px;
@@ -40,7 +41,7 @@ ul {
         margin-top: 20px;
     }
     &-white {
-        background-color: #fff;
+        background-color: $textColor;
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
     }
 }
@@ -49,21 +50,21 @@ ul {
     font-weight: 600;
     text-transform: uppercase; 
     span {
-        color: #FFCD01;
+        color: $second;
+    font-size: 30px;
+
     }
     &-white {
-        color: #fff;
+        color: $textColor;
         font-size: 25px;
         span {
-            color: #FFCD01;
+            color: $second;
         }
     }
     @media (max-width: 577px) {
         font-size: 24px;
     }
 }
-
-
 
 @import 'blocks/header';
 @import 'blocks/promo';
@@ -78,6 +79,7 @@ ul {
 @import 'blocks/partners';
 @import 'blocks/contacts';
 @import 'blocks/whatsapp';
+@import 'blocks/modals';
 
 
 @import 'media/mediaHeader';
@@ -94,6 +96,7 @@ ul {
 @import 'media/mediaPartners';
 @import 'media/mediaContacts'; 
 @import 'media/mediaWhatsapp'; 
+@import 'media/mediaModals'; 
 
 
  

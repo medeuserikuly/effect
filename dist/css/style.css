@@ -1657,7 +1657,7 @@ ul {
 .btn {
   width: 235px;
   height: 47px;
-  background-color: #FFCD01;
+  background-color: #ffb17a;
   border-radius: 30px;
   font-size: 14px;
   color: #000;
@@ -1686,7 +1686,8 @@ ul {
 }
 
 .title span {
-  color: #FFCD01;
+  color: #ffb17a;
+  font-size: 30px;
 }
 
 .title-white {
@@ -1695,7 +1696,7 @@ ul {
 }
 
 .title-white span {
-  color: #FFCD01;
+  color: #ffb17a;
 }
 
 .header {
@@ -1703,7 +1704,7 @@ ul {
   left: 0;
   width: 100%;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: #484d62;
 }
 
 .header__container {
@@ -1718,7 +1719,6 @@ ul {
   position: relative;
   z-index: 5;
   caret-color: transparent;
-  color: #232323;
   font-size: 30px;
 }
 
@@ -1742,7 +1742,7 @@ ul {
   position: relative;
   padding-top: 150px;
   height: 800px;
-  background-color: rgb(55, 53, 57);
+  background-color: #525870;
 }
 
 .promo__text {
@@ -1760,7 +1760,7 @@ ul {
 }
 
 .promo__title span {
-  color: #FFCD01;
+  color: #ffb17a;
 }
 
 .promo__subtitle {
@@ -1849,7 +1849,7 @@ ul {
 .discount {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #373539;
+  background-color: #525870;
 }
 
 .discount__wrapper {
@@ -1917,7 +1917,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #232323;
+  color: #525870;
   cursor: pointer;
 }
 
@@ -1928,7 +1928,7 @@ ul {
 }
 
 .order {
-  background-color: #373539;
+  background-color: #525870;
   padding: 50px 0;
 }
 
@@ -1992,7 +1992,7 @@ ul {
 
 .sample {
   padding: 50px 0;
-  background-color: #373539;
+  background-color: #525870;
 }
 
 .sample__wrapper {
@@ -2054,6 +2054,7 @@ ul {
 
 .examples {
   padding: 50px 0;
+  background-color: #525870;
 }
 
 .examples__subtitle {
@@ -2061,6 +2062,7 @@ ul {
   margin-bottom: 25px;
   font-size: 15px;
   font-weight: 300;
+  color: #fff;
 }
 
 .page-title {
@@ -2075,6 +2077,16 @@ ul {
   overflow: hidden;
 }
 
+.slider-modals {
+  width: 500px;
+  height: 200px;
+  margin-bottom: 30px;
+  left: -65px;
+  right: 0;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
 .slider {
   display: flex;
   transition: transform 0.5s ease-in-out;
@@ -2082,8 +2094,8 @@ ul {
 
 .slider img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 .prev-button,
@@ -2096,7 +2108,7 @@ ul {
   background-color: transparent;
   border: none;
   font-size: 44px;
-  color: white;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -2125,8 +2137,12 @@ ul {
   align-items: center;
 }
 
+.partners__img {
+  width: 150px;
+}
+
 .contacts {
-  background-color: #373539;
+  background-color: #525870;
   padding: 50px 0;
 }
 
@@ -2279,6 +2295,129 @@ ul {
     opacity: 0;
     transform: scale(1.7, 1.7);
   }
+}
+
+.modals__consultation,
+.modals__letters,
+.modals__box,
+.modals__console,
+.modals__roof,
+.modals__steels,
+.modals__information {
+  z-index: 20;
+  position: fixed;
+  display: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(183, 188, 80, 0.824);
+}
+
+.modals__consultation h4,
+.modals__letters h4,
+.modals__box h4,
+.modals__console h4,
+.modals__roof h4,
+.modals__steels h4,
+.modals__information h4 {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.modals__consultation form,
+.modals__letters form,
+.modals__box form,
+.modals__console form,
+.modals__roof form,
+.modals__steels form,
+.modals__information form {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.modals__consultation form input,
+.modals__consultation form area,
+.modals__letters form input,
+.modals__letters form area,
+.modals__box form input,
+.modals__box form area,
+.modals__console form input,
+.modals__console form area,
+.modals__roof form input,
+.modals__roof form area,
+.modals__steels form input,
+.modals__steels form area,
+.modals__information form input,
+.modals__information form area {
+  border: none;
+  border-radius: 50px;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  color: inherit;
+  resize: none;
+}
+
+.modals__consultation form input::-moz-placeholder, .modals__consultation form area::-moz-placeholder, .modals__letters form input::-moz-placeholder, .modals__letters form area::-moz-placeholder, .modals__box form input::-moz-placeholder, .modals__box form area::-moz-placeholder, .modals__console form input::-moz-placeholder, .modals__console form area::-moz-placeholder, .modals__roof form input::-moz-placeholder, .modals__roof form area::-moz-placeholder, .modals__steels form input::-moz-placeholder, .modals__steels form area::-moz-placeholder, .modals__information form input::-moz-placeholder, .modals__information form area::-moz-placeholder {
+  color: black;
+  text-align: center;
+}
+
+.modals__consultation form input::placeholder,
+.modals__consultation form area::placeholder,
+.modals__letters form input::placeholder,
+.modals__letters form area::placeholder,
+.modals__box form input::placeholder,
+.modals__box form area::placeholder,
+.modals__console form input::placeholder,
+.modals__console form area::placeholder,
+.modals__roof form input::placeholder,
+.modals__roof form area::placeholder,
+.modals__steels form input::placeholder,
+.modals__steels form area::placeholder,
+.modals__information form input::placeholder,
+.modals__information form area::placeholder {
+  color: black;
+  text-align: center;
+}
+
+.modals__content {
+  position: fixed;
+  text-align: center;
+  max-width: 35rem;
+  left: 50%;
+  top: 20%;
+  background-color: #ededed;
+  border-radius: 4px;
+  transform: translateX(-50%) !important;
+  padding: 4rem 6rem 5rem 6rem;
+}
+
+.modals__close {
+  position: absolute;
+  top: -5rem;
+  right: -1.5rem;
+  font-size: 5rem;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.modals__descr,
+.modals__price {
+  margin-bottom: 30px;
+  color: #232323;
+  font-size: 18px;
 }
 
 @media (max-width: 577px) {
@@ -2478,6 +2617,14 @@ ul {
     text-align: center;
   }
 
+  .slider-modals {
+    width: 320px;
+    height: 200px;
+    margin-bottom: 30px;
+    left: -15px;
+    right: 0;
+  }
+
   .partners {
     padding: 30px 0;
   }
@@ -2508,6 +2655,75 @@ ul {
 
   .contacts__address {
     margin-top: 10px;
+  }
+
+  .modals__consultation h4,
+  .modals__letters h4,
+  .modals__box h4,
+  .modals__console h4,
+  .modals__roof h4,
+  .modals__steels h4,
+  .modals__information h4 {
+    font-size: 14px;
+  }
+
+  .modals__consultation form input,
+  .modals__consultation form area,
+  .modals__letters form input,
+  .modals__letters form area,
+  .modals__box form input,
+  .modals__box form area,
+  .modals__console form input,
+  .modals__console form area,
+  .modals__roof form input,
+  .modals__roof form area,
+  .modals__steels form input,
+  .modals__steels form area,
+  .modals__information form input,
+  .modals__information form area {
+    padding: 12px;
+    margin-bottom: 15px;
+    width: 100%;
+    color: inherit;
+    resize: none;
+  }
+
+  .modals__consultation form input::-moz-placeholder, .modals__consultation form area::-moz-placeholder, .modals__letters form input::-moz-placeholder, .modals__letters form area::-moz-placeholder, .modals__box form input::-moz-placeholder, .modals__box form area::-moz-placeholder, .modals__console form input::-moz-placeholder, .modals__console form area::-moz-placeholder, .modals__roof form input::-moz-placeholder, .modals__roof form area::-moz-placeholder, .modals__steels form input::-moz-placeholder, .modals__steels form area::-moz-placeholder, .modals__information form input::-moz-placeholder, .modals__information form area::-moz-placeholder {
+    color: black;
+    text-align: center;
+  }
+
+  .modals__consultation form input::placeholder,
+  .modals__consultation form area::placeholder,
+  .modals__letters form input::placeholder,
+  .modals__letters form area::placeholder,
+  .modals__box form input::placeholder,
+  .modals__box form area::placeholder,
+  .modals__console form input::placeholder,
+  .modals__console form area::placeholder,
+  .modals__roof form input::placeholder,
+  .modals__roof form area::placeholder,
+  .modals__steels form input::placeholder,
+  .modals__steels form area::placeholder,
+  .modals__information form input::placeholder,
+  .modals__information form area::placeholder {
+    color: black;
+    text-align: center;
+  }
+
+  .modals__content {
+    width: 350px;
+    padding: 30px;
+  }
+
+  .modals__close {
+    font-size: 4rem;
+  }
+
+  .modals__descr,
+  .modals__price {
+    margin-bottom: 15px;
+    font-size: 14px;
   }
 }
 

@@ -1,12 +1,13 @@
 .examples {
   padding: 50px 0;
+  background-color: $first;
 
   &__subtitle {
     margin-top: 5px;
     margin-bottom: 25px;
     font-size: 15px;
     font-weight: 300;
-
+    color: $textColor;
   }
 }
 
@@ -20,6 +21,17 @@
   height: 400px;
   margin: 0 auto;
   overflow: hidden;
+
+}
+
+.slider-modals {
+  width: 500px;
+  height: 200px;
+  margin-bottom: 30px;
+  left: -65px;
+  right: 0;
+  object-fit: scale-down;
+
 }
 
 .slider {
@@ -30,7 +42,7 @@
 .slider img {
   width: 100%;
   // height: 100%;
-  object-fit: cover;
+  object-fit: scale-down;
 }
 
 .prev-button,
@@ -43,7 +55,7 @@
   background-color: transparent;
   border: none;
   font-size: 44px;
-  color: white;
+  color: $textColor;
   cursor: pointer;
 }
 

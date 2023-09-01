@@ -1,0 +1,44 @@
+@media (max-width: 577px) {
+    .modals {
+        // .modals__consultation
+        &__consultation, 
+        &__letters, 
+        &__box,
+        &__console,
+        &__roof,
+        &__steels,
+        &__information {
+            h4 {
+                font-size: 14px;
+              }
+            form {
+                input, area {
+                    padding: 12px;
+                    margin-bottom: 15px;
+                    width: 100%;
+                    color: inherit;
+                    resize: none;
+                    &::placeholder {
+                        color: black;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        // .modals__content
+        &__content {
+            width: 350px;
+            padding:30px;
+        }
+        // .modals__close
+        &__close {
+            font-size: 4rem;
+        }
+        &__descr, &__price {
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+    }
+    
+    
+}

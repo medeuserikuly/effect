@@ -5,7 +5,8 @@
     left: 0;
     width: 100%;
     z-index: 10;
-    background-color:rgba(0, 0, 0, .75);
+    // background-color:rgba(0, 0, 0, .75);
+    background-color: $headerBGColor;
 
     &__container {
         margin: 0 auto;
@@ -18,7 +19,6 @@
         position: relative;
         z-index: 5;
         caret-color: transparent;
-        color:#232323;
         font-size: 30px;
     }
     .menu {
@@ -33,7 +33,7 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            color: #fff;
+            color: $textColor;
             margin-right: 30px;
         }
     }

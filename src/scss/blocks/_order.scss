@@ -1,5 +1,5 @@
 .order {
-    background-color: #373539;
+    background-color: $first;
     padding: 50px 0;
     // .order__wrapper
     &__wrapper {
@@ -10,7 +10,7 @@
     }
     // .order__item
     &__item {
-        color: #fff;
+        color: $textColor;
         display: flex;
         align-items: center;
         gap: 15px;

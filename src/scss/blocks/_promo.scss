@@ -2,13 +2,14 @@
     position: relative;
     padding-top: 150px;
     height: 800px;
-    // background: url('@img/background.jpg') center center/cover no-repeat;
-    background-color: rgb(55, 53, 57);
+    // background: url('@img/background.jpeg') center center/cover no-repeat;
+    // background-color: rgb(55, 53, 57);
+    background-color: $first;
     // .promo__text
     &__text {
         font-size: 16px;
         font-weight: 500;
-        color: #fff;
+        color: $textColor;
     }
     // .promo__title
     &__title {
@@ -16,9 +17,9 @@
         line-height: 60px;
         width: 750px;
         font-size: 45px;
-        color: #fff;
+        color: $textColor;
         span {
-            color: #FFCD01;
+            color: $second;
         }
     }
     // .promo__subtitle
@@ -27,7 +28,7 @@
         width: 600px;
         font-size: 19px;
         font-weight: 500;
-        color: #fff;
+        color: $textColor;
     }
     // .promo__numbers
     &__numbers {
@@ -49,17 +50,13 @@
         // width: 170px;
         font-size: 30px;
         font-weight: 700;
-        color:#fff;
+        color:$textColor;
     }
     // .promo__descr
     &__descr {
         width: 200px;
         font-size: 14px;
         font-weight: 500;
-        color:#fff;
+        color:$textColor;
     }
-}
-.container {
-}
-.btn {
 }

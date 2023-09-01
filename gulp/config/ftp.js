@@ -1,6 +1,6 @@
 export let configFTP = {
-    host: 'ernartoleubek.kz', // Адрес ФТП сервера
-    user: 'ernarto1', 
-    password: '38nd#Gnq6%9I',
+    host: 'absolute-astana.kz', // Адрес ФТП сервера
+    user: 'absolut6', 
+    password: 'sm6a#Q4cN%47',
     parallel: 5 // Кол-во одновременных потоков
 };
